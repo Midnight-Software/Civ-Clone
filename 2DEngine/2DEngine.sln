@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DEngine", "2DEngine\2DEngine.csproj", "{00AD6075-61F9-4F19-A763-563EF1A324D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseFunctions", "BaseFunctions\BaseFunctions.csproj", "{26C8132E-69B6-42EB-9922-7E4FA9C457FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00AD6075-61F9-4F19-A763-563EF1A324D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00AD6075-61F9-4F19-A763-563EF1A324D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00AD6075-61F9-4F19-A763-563EF1A324D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00AD6075-61F9-4F19-A763-563EF1A324D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26C8132E-69B6-42EB-9922-7E4FA9C457FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C8132E-69B6-42EB-9922-7E4FA9C457FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C8132E-69B6-42EB-9922-7E4FA9C457FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C8132E-69B6-42EB-9922-7E4FA9C457FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

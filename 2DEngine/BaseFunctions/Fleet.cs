@@ -1,0 +1,6 @@
+﻿namespace BaseFunctions
+{
+    class Fleet
+    {
+    }
+}
