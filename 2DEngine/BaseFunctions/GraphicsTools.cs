@@ -5,6 +5,8 @@ using System.Collections.Generic; //list
 using SFML.Graphics;
 using SFML.Window;
 
+using BaseFunctions.Utilities;
+
 namespace BaseFunctions
 {
     public class GraphicsTools
@@ -111,6 +113,7 @@ namespace BaseFunctions
             fonts.Add(new Font(AssetPath("\\" + ((Fonts)0).ToString() + "\\" + ((Fonts)0).ToString() + ".ttf", FileType.Font)));
             textureDictionary = new Dictionary<string, Texture>();
             rw = rwIn;
+            Logger.WriteLine("GraphicsTools has been initialized.", Logger.FileTarget.graphicsLog);
         }
 
         public static Font GetFont(Fonts f)
@@ -131,24 +134,37 @@ namespace BaseFunctions
             if (System.IO.Directory.Exists(dirs[0]))
                 AssetDirectory = dirs[0];
             else
+            {
+                Logger.WriteLine("Main asset directory is invalid...", Logger.FileTarget.graphicsLog);
                 throw new InvalidPathException("Main Asset Directory Path is not Valid.");
-            
-            if(System.IO.Directory.Exists(AssetDirectory + "\\" + dirs[1]))
+            }
+
+            if (System.IO.Directory.Exists(AssetDirectory + "\\" + dirs[1]))
                 ImageDirectory = AssetDirectory + "\\" + dirs[1];
             else
+            {
+                Logger.WriteLine("Image directory is invalid...", Logger.FileTarget.graphicsLog);
                 throw new InvalidPathException("Image Directory Path is not Valid.");
+            }
 
             if (System.IO.Directory.Exists(AssetDirectory + "\\" + dirs[2]))
                 SoundDirectory = AssetDirectory + "\\" + dirs[2];
             else
+            {
+                Logger.WriteLine("Sound directory is invalid...", Logger.FileTarget.graphicsLog);
                 throw new InvalidPathException("Sound Directory Path is not Valid.");
+            }
 
             if (System.IO.Directory.Exists(AssetDirectory + "\\" + dirs[3]))
                 FontDirectory = AssetDirectory + "\\" + dirs[3];
             else
+            {
+                Logger.WriteLine("Font directory is invalid...", Logger.FileTarget.graphicsLog);
                 throw new InvalidPathException("Font Directory Path is not Valid.");
+            }
 
             init = true;
+            Logger.WriteLine("Directories set correctly.", Logger.FileTarget.graphicsLog);
         }
 
         public static Vector2i ActiveResolution

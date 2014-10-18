@@ -1,0 +1,10 @@
+*.exe
+*.dll
+bin/
+obj/
+logs/
+*.xcf
+*.png
+*.mp3
+*.ttf
+*.db

@@ -1,4 +1,4 @@
-﻿#define loggingOFF //switch this to 'logON' for logging.
+﻿#define loggingOFF //switch this to 'loggingON' for logging.
 
 using System;     //Console.WriteLine
                   //      ".ReadKey
@@ -11,6 +11,7 @@ using SFML.Graphics;
 using SFML.Window;
 
 using BaseFunctions;
+using BaseFunctions.Utilities;
 
 namespace _2DEngine
 {
@@ -23,27 +24,36 @@ namespace _2DEngine
             //TODO >
             // Give GraphicsTools a RenderWindow field that is a pointer, so I don't have to pass it around all the time.
 
-            //Backgrounds
-            GraphicsTools.textureDictionary.Add("title", new Texture(GraphicsTools.AssetPath("newBackGround.png")));
-            //GraphicsTools.textureDictionary.Add("title", new Texture(GraphicsTools.AssetPath("Background.png")));
-            GraphicsTools.textureDictionary.Add("options", new Texture(GraphicsTools.AssetPath("OptionsBG.png")));
-            GraphicsTools.textureDictionary.Add("test", new Texture(GraphicsTools.AssetPath("TestBG.png")));
+            try
+            {
+                //Backgrounds
+                GraphicsTools.textureDictionary.Add("title", new Texture(GraphicsTools.AssetPath("newBackGround.png")));
+                //GraphicsTools.textureDictionary.Add("title", new Texture(GraphicsTools.AssetPath("Background.png")));
+                GraphicsTools.textureDictionary.Add("options", new Texture(GraphicsTools.AssetPath("OptionsBG.png")));
+                GraphicsTools.textureDictionary.Add("test", new Texture(GraphicsTools.AssetPath("TestBG.png")));
 
-            //Tiles
-            //Default
-            GraphicsTools.textureDictionary.Add("default", new Texture(GraphicsTools.AssetPath("GameScreen\\Tiles\\TileTemplate.png")));
-            GraphicsTools.textureDictionary.Add("defaultClick", new Texture(GraphicsTools.AssetPath("GameScreen\\Tiles\\TileTemplate_Click.png")));
-            GraphicsTools.textureDictionary.Add("defaultHover", new Texture(GraphicsTools.AssetPath("GameScreen\\Tiles\\TileTemplate_Hover.png")));
-            GraphicsTools.textureDictionary.Add("defaultSelected", new Texture(GraphicsTools.AssetPath("GameScreen\\Tiles\\TileTemplate_Selected.png")));
-            //Platform
-            GraphicsTools.textureDictionary.Add("platform", new Texture(GraphicsTools.AssetPath("GameScreen\\Tiles\\Platform.png")));
-            GraphicsTools.textureDictionary.Add("platformClick", new Texture(GraphicsTools.AssetPath("GameScreen\\Tiles\\Platform_Click.png")));
-            GraphicsTools.textureDictionary.Add("platformHover", new Texture(GraphicsTools.AssetPath("GameScreen\\Tiles\\Platform_Hover.png")));
-            GraphicsTools.textureDictionary.Add("platformSelected", new Texture(GraphicsTools.AssetPath("GameScreen\\Tiles\\Platform_Selected.png")));
+                //Tiles
+                //Default
+                GraphicsTools.textureDictionary.Add("default", new Texture(GraphicsTools.AssetPath("GameScreen\\Tiles\\TileTemplate.png")));
+                GraphicsTools.textureDictionary.Add("defaultClick", new Texture(GraphicsTools.AssetPath("GameScreen\\Tiles\\TileTemplate_Click.png")));
+                GraphicsTools.textureDictionary.Add("defaultHover", new Texture(GraphicsTools.AssetPath("GameScreen\\Tiles\\TileTemplate_Hover.png")));
+                GraphicsTools.textureDictionary.Add("defaultSelected", new Texture(GraphicsTools.AssetPath("GameScreen\\Tiles\\TileTemplate_Selected.png")));
+                //Platform
+                GraphicsTools.textureDictionary.Add("platform", new Texture(GraphicsTools.AssetPath("GameScreen\\Tiles\\Platform.png")));
+                GraphicsTools.textureDictionary.Add("platformClick", new Texture(GraphicsTools.AssetPath("GameScreen\\Tiles\\Platform_Click.png")));
+                GraphicsTools.textureDictionary.Add("platformHover", new Texture(GraphicsTools.AssetPath("GameScreen\\Tiles\\Platform_Hover.png")));
+                GraphicsTools.textureDictionary.Add("platformSelected", new Texture(GraphicsTools.AssetPath("GameScreen\\Tiles\\Platform_Selected.png")));
+            }
+            finally
+            {
+                Logger.WriteLine("Bad texture path somewhere.", Logger.FileTarget.graphicsLog);
+                Logger.WriteLine("Bad texture path somewhere.", Logger.FileTarget.mainLog);
+            }
         }
 
         public void Run()
         {
+            Logger.WriteLine(String.Format("Setting resultion to {0}", GraphicsTools.ActiveResolution), Logger.FileTarget.graphicsLog);
             Vector2i activeResolution = GraphicsTools.ActiveResolution;
             RenderWindow rw = new RenderWindow(new VideoMode((uint)activeResolution.X, (uint)activeResolution.Y), "2DEngine", Styles.Fullscreen);
             rw.Position = new Vector2i(0, 0);
@@ -51,7 +61,21 @@ namespace _2DEngine
             rw.SetVerticalSyncEnabled(true);
             rw.Closed += rw_Closed;
 
-            GraphicsTools.SetDirectories("../../../../GlobalAssets", "PNG_EXPORT", "Sounds", "Fonts");
+            try
+            {
+                GraphicsTools.SetDirectories("../../../../GlobalAssets", "PNG_EXPORT", "Sounds", "Fonts");
+            }
+            catch (GraphicsTools.InvalidPathException e)
+            {
+                Logger.WriteLine("*****", Logger.FileTarget.mainLog);
+                Logger.WriteLine( "EXCEPTION", Logger.FileTarget.mainLog);
+                Logger.WriteLine( "*****", Logger.FileTarget.mainLog);
+                Logger.WriteLine(string.Format("Type: {0}", e.GetType().ToString()), Logger.FileTarget.mainLog);
+                Logger.WriteLine(string.Format("Text: {0}", e.Message), Logger.FileTarget.mainLog);
+                Logger.WriteLine(string.Format("Trace: {0}", e.StackTrace), Logger.FileTarget.mainLog);
+                Logger.WriteLine("*****", Logger.FileTarget.mainLog);
+                return;
+            }
             GraphicsTools.Initialize(rw);
             loadTextures();
             //just here for reference.
@@ -114,8 +138,6 @@ namespace _2DEngine
                     elapsed = timer.ElapsedMilliseconds;
                 }
 
-            //Console.WriteLine("\nPlease press any key to exit.");
-            //Console.ReadKey();
         }
 
         static void rw_Closed(object sender, EventArgs e)

@@ -4,6 +4,7 @@ using SFML.Graphics;
 using SFML.Window;
 
 using BaseFunctions;
+using BaseFunctions.Utilities;
 
 namespace _2DEngine
 {
