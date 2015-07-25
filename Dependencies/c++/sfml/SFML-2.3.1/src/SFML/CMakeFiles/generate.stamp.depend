@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/src/SFML/CMakeLists.txt
+C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/cmake/Macros.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CMakeParseArguments.cmake

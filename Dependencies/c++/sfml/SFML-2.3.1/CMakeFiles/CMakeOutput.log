@@ -1,0 +1,1136 @@
+The system is: CYGWIN - 2.1.0(0.287/5/3) - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "/home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/3.1.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "/home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/3.1.2/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec2336229427/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2336229427.dir/build.make CMakeFiles/cmTryCompileExec2336229427.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2336229427.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2336229427.dir/testCCompiler.c.o   -c /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2336229427.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec2336229427.dir/link.txt --verbose=1
+/usr/bin/cc     -Wl,--enable-auto-import CMakeFiles/cmTryCompileExec2336229427.dir/testCCompiler.c.o  -o cmTryCompileExec2336229427.exe -Wl,--out-implib,libcmTryCompileExec2336229427.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec173041630/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec173041630.dir/build.make CMakeFiles/cmTryCompileExec173041630.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec173041630.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec173041630.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.1.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec173041630.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec173041630.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec173041630.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec173041630.exe -Wl,--out-implib,libcmTryCompileExec173041630.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-pc-cygwin/4.9.3/lto-wrapper.exe
+Target: i686-pc-cygwin
+Configured with: /cygdrive/i/szsz/tmpp/gcc/gcc-4.9.3-1.i686/src/gcc-4.9.3/configure --srcdir=/cygdrive/i/szsz/tmpp/gcc/gcc-4.9.3-1.i686/src/gcc-4.9.3 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=i686-pc-cygwin --host=i686-pc-cygwin --target=i686-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-arch=i686 --with-tune=generic --disable-sjlj-exceptions --enable-languages=ada,c,c++,fortran,java,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --enable-libssp --enable-libada --enable-libjava --enable-libgcj-sublibs --disable-java-awt --disable-symvers --with-ecj-jar=/usr/share/java/ecj.jar --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id
+Thread model: posix
+gcc version 4.9.3 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/i686-pc-cygwin/4.9.3/:/usr/lib/gcc/i686-pc-cygwin/4.9.3/:/usr/lib/gcc/i686-pc-cygwin/:/usr/lib/gcc/i686-pc-cygwin/4.9.3/:/usr/lib/gcc/i686-pc-cygwin/:/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../../i686-pc-cygwin/bin/
+LIBRARY_PATH=/usr/lib/gcc/i686-pc-cygwin/4.9.3/:/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../../i686-pc-cygwin/lib/:/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec173041630.exe' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-pc-cygwin/4.9.3/collect2.exe -plugin /usr/lib/gcc/i686-pc-cygwin/4.9.3/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/i686-pc-cygwin/4.9.3/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/cczUVMqR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --wrap _Znwj --wrap _Znaj --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwjRKSt9nothrow_t --wrap _ZnajRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --large-address-aware --tsaware -o cmTryCompileExec173041630.exe /usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../crt0.o /usr/lib/gcc/i686-pc-cygwin/4.9.3/crtbegin.o -L/usr/lib/gcc/i686-pc-cygwin/4.9.3 -L/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../../i686-pc-cygwin/lib -L/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../.. CMakeFiles/cmTryCompileExec173041630.dir/CMakeCCompilerABI.c.o --out-implib libcmTryCompileExec173041630.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../default-manifest.o /usr/lib/gcc/i686-pc-cygwin/4.9.3/crtend.o
+make[1]: Leaving directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec173041630/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec173041630.dir/build.make CMakeFiles/cmTryCompileExec173041630.dir/build]
+  ignore line: [make[1]: Entering directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake.exe -E cmake_progress_report /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec173041630.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec173041630.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.1.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec173041630.exe]
+  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec173041630.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec173041630.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec173041630.exe -Wl,--out-implib,libcmTryCompileExec173041630.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-pc-cygwin/4.9.3/lto-wrapper.exe]
+  ignore line: [Target: i686-pc-cygwin]
+  ignore line: [Configured with: /cygdrive/i/szsz/tmpp/gcc/gcc-4.9.3-1.i686/src/gcc-4.9.3/configure --srcdir=/cygdrive/i/szsz/tmpp/gcc/gcc-4.9.3-1.i686/src/gcc-4.9.3 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=i686-pc-cygwin --host=i686-pc-cygwin --target=i686-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-arch=i686 --with-tune=generic --disable-sjlj-exceptions --enable-languages=ada,c,c++,fortran,java,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --enable-libssp --enable-libada --enable-libjava --enable-libgcj-sublibs --disable-java-awt --disable-symvers --with-ecj-jar=/usr/share/java/ecj.jar --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.3 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-pc-cygwin/4.9.3/:/usr/lib/gcc/i686-pc-cygwin/4.9.3/:/usr/lib/gcc/i686-pc-cygwin/:/usr/lib/gcc/i686-pc-cygwin/4.9.3/:/usr/lib/gcc/i686-pc-cygwin/:/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../../i686-pc-cygwin/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-pc-cygwin/4.9.3/:/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../../i686-pc-cygwin/lib/:/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec173041630.exe' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-pc-cygwin/4.9.3/collect2.exe -plugin /usr/lib/gcc/i686-pc-cygwin/4.9.3/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/i686-pc-cygwin/4.9.3/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/cczUVMqR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --wrap _Znwj --wrap _Znaj --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwjRKSt9nothrow_t --wrap _ZnajRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --large-address-aware --tsaware -o cmTryCompileExec173041630.exe /usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../crt0.o /usr/lib/gcc/i686-pc-cygwin/4.9.3/crtbegin.o -L/usr/lib/gcc/i686-pc-cygwin/4.9.3 -L/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../../i686-pc-cygwin/lib -L/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../.. CMakeFiles/cmTryCompileExec173041630.dir/CMakeCCompilerABI.c.o --out-implib libcmTryCompileExec173041630.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../default-manifest.o /usr/lib/gcc/i686-pc-cygwin/4.9.3/crtend.o]
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.3/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.3/cyglto_plugin.dll] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/i686-pc-cygwin/4.9.3/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cczUVMqR.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lcygwin] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znwj] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znaj] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnwjRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnajRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPvRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPvRKSt9nothrow_t] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [--dll-search-prefix=cyg] ==> ignore
+    arg [--large-address-aware] ==> ignore
+    arg [--tsaware] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec173041630.exe] ==> ignore
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../crt0.o] ==> ignore
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.3/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-pc-cygwin/4.9.3] ==> dir [/usr/lib/gcc/i686-pc-cygwin/4.9.3]
+    arg [-L/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../../i686-pc-cygwin/lib] ==> dir [/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../../i686-pc-cygwin/lib]
+    arg [-L/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../..] ==> dir [/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../..]
+    arg [CMakeFiles/cmTryCompileExec173041630.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTryCompileExec173041630.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lcygwin] ==> lib [cygwin]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../default-manifest.o] ==> ignore
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.3/crtend.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/i686-pc-cygwin/4.9.3] ==> [/usr/lib/gcc/i686-pc-cygwin/4.9.3]
+  collapse library dir [/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../../i686-pc-cygwin/lib] ==> [/usr/i686-pc-cygwin/lib]
+  collapse library dir [/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../..] ==> [/usr/lib]
+  implicit libs: [cygwin;advapi32;shell32;user32;kernel32]
+  implicit dirs: [/usr/lib/gcc/i686-pc-cygwin/4.9.3;/usr/i686-pc-cygwin/lib;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec3437288857/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3437288857.dir/build.make CMakeFiles/cmTryCompileExec3437288857.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3437288857.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec3437288857.dir/feature_tests.c.o   -c /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec3437288857.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec3437288857.dir/link.txt --verbose=1
+/usr/bin/cc     -Wl,--enable-auto-import CMakeFiles/cmTryCompileExec3437288857.dir/feature_tests.c.o  -o cmTryCompileExec3437288857.exe -Wl,--out-implib,libcmTryCompileExec3437288857.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec516853268/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec516853268.dir/build.make CMakeFiles/cmTryCompileExec516853268.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec516853268.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec516853268.dir/feature_tests.c.o   -c /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec516853268.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec516853268.dir/link.txt --verbose=1
+/usr/bin/cc     -Wl,--enable-auto-import CMakeFiles/cmTryCompileExec516853268.dir/feature_tests.c.o  -o cmTryCompileExec516853268.exe -Wl,--out-implib,libcmTryCompileExec516853268.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:0c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec3041122545/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3041122545.dir/build.make CMakeFiles/cmTryCompileExec3041122545.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3041122545.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec3041122545.dir/feature_tests.c.o   -c /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec3041122545.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec3041122545.dir/link.txt --verbose=1
+/usr/bin/cc     -Wl,--enable-auto-import CMakeFiles/cmTryCompileExec3041122545.dir/feature_tests.c.o  -o cmTryCompileExec3041122545.exe -Wl,--out-implib,libcmTryCompileExec3041122545.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:0c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec1437055039/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1437055039.dir/build.make CMakeFiles/cmTryCompileExec1437055039.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1437055039.dir/testCXXCompiler.cxx.o
+/usr/bin/c++.exe     -o CMakeFiles/cmTryCompileExec1437055039.dir/testCXXCompiler.cxx.o -c /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1437055039.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec1437055039.dir/link.txt --verbose=1
+/usr/bin/c++.exe     -Wl,--enable-auto-import CMakeFiles/cmTryCompileExec1437055039.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1437055039.exe -Wl,--out-implib,libcmTryCompileExec1437055039.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec1434204194/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1434204194.dir/build.make CMakeFiles/cmTryCompileExec1434204194.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1434204194.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++.exe     -o CMakeFiles/cmTryCompileExec1434204194.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.1.2/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec1434204194.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec1434204194.dir/link.txt --verbose=1
+/usr/bin/c++.exe     -v CMakeFiles/cmTryCompileExec1434204194.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1434204194.exe -Wl,--out-implib,libcmTryCompileExec1434204194.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-pc-cygwin/4.9.3/lto-wrapper.exe
+Target: i686-pc-cygwin
+Configured with: /cygdrive/i/szsz/tmpp/gcc/gcc-4.9.3-1.i686/src/gcc-4.9.3/configure --srcdir=/cygdrive/i/szsz/tmpp/gcc/gcc-4.9.3-1.i686/src/gcc-4.9.3 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=i686-pc-cygwin --host=i686-pc-cygwin --target=i686-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-arch=i686 --with-tune=generic --disable-sjlj-exceptions --enable-languages=ada,c,c++,fortran,java,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --enable-libssp --enable-libada --enable-libjava --enable-libgcj-sublibs --disable-java-awt --disable-symvers --with-ecj-jar=/usr/share/java/ecj.jar --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id
+Thread model: posix
+gcc version 4.9.3 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/i686-pc-cygwin/4.9.3/:/usr/lib/gcc/i686-pc-cygwin/4.9.3/:/usr/lib/gcc/i686-pc-cygwin/:/usr/lib/gcc/i686-pc-cygwin/4.9.3/:/usr/lib/gcc/i686-pc-cygwin/:/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../../i686-pc-cygwin/bin/
+LIBRARY_PATH=/usr/lib/gcc/i686-pc-cygwin/4.9.3/:/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../../i686-pc-cygwin/lib/:/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1434204194.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-pc-cygwin/4.9.3/collect2.exe -plugin /usr/lib/gcc/i686-pc-cygwin/4.9.3/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/i686-pc-cygwin/4.9.3/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccOwEZP7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --wrap _Znwj --wrap _Znaj --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwjRKSt9nothrow_t --wrap _ZnajRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --large-address-aware --tsaware -o cmTryCompileExec1434204194.exe /usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../crt0.o /usr/lib/gcc/i686-pc-cygwin/4.9.3/crtbegin.o -L/usr/lib/gcc/i686-pc-cygwin/4.9.3 -L/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../../i686-pc-cygwin/lib -L/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../.. CMakeFiles/cmTryCompileExec1434204194.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTryCompileExec1434204194.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../default-manifest.o /usr/lib/gcc/i686-pc-cygwin/4.9.3/crtend.o
+make[1]: Leaving directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec1434204194/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1434204194.dir/build.make CMakeFiles/cmTryCompileExec1434204194.dir/build]
+  ignore line: [make[1]: Entering directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake.exe -E cmake_progress_report /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1434204194.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++.exe     -o CMakeFiles/cmTryCompileExec1434204194.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.1.2/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec1434204194.exe]
+  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec1434204194.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++.exe     -v CMakeFiles/cmTryCompileExec1434204194.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1434204194.exe -Wl,--out-implib,libcmTryCompileExec1434204194.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-pc-cygwin/4.9.3/lto-wrapper.exe]
+  ignore line: [Target: i686-pc-cygwin]
+  ignore line: [Configured with: /cygdrive/i/szsz/tmpp/gcc/gcc-4.9.3-1.i686/src/gcc-4.9.3/configure --srcdir=/cygdrive/i/szsz/tmpp/gcc/gcc-4.9.3-1.i686/src/gcc-4.9.3 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=i686-pc-cygwin --host=i686-pc-cygwin --target=i686-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-arch=i686 --with-tune=generic --disable-sjlj-exceptions --enable-languages=ada,c,c++,fortran,java,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --enable-libssp --enable-libada --enable-libjava --enable-libgcj-sublibs --disable-java-awt --disable-symvers --with-ecj-jar=/usr/share/java/ecj.jar --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.3 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-pc-cygwin/4.9.3/:/usr/lib/gcc/i686-pc-cygwin/4.9.3/:/usr/lib/gcc/i686-pc-cygwin/:/usr/lib/gcc/i686-pc-cygwin/4.9.3/:/usr/lib/gcc/i686-pc-cygwin/:/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../../i686-pc-cygwin/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-pc-cygwin/4.9.3/:/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../../i686-pc-cygwin/lib/:/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1434204194.exe' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-pc-cygwin/4.9.3/collect2.exe -plugin /usr/lib/gcc/i686-pc-cygwin/4.9.3/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/i686-pc-cygwin/4.9.3/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccOwEZP7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --wrap _Znwj --wrap _Znaj --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwjRKSt9nothrow_t --wrap _ZnajRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --large-address-aware --tsaware -o cmTryCompileExec1434204194.exe /usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../crt0.o /usr/lib/gcc/i686-pc-cygwin/4.9.3/crtbegin.o -L/usr/lib/gcc/i686-pc-cygwin/4.9.3 -L/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../../i686-pc-cygwin/lib -L/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../.. CMakeFiles/cmTryCompileExec1434204194.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTryCompileExec1434204194.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../default-manifest.o /usr/lib/gcc/i686-pc-cygwin/4.9.3/crtend.o]
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.3/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.3/cyglto_plugin.dll] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/i686-pc-cygwin/4.9.3/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccOwEZP7.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lcygwin] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znwj] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znaj] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnwjRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnajRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPvRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPvRKSt9nothrow_t] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [--dll-search-prefix=cyg] ==> ignore
+    arg [--large-address-aware] ==> ignore
+    arg [--tsaware] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1434204194.exe] ==> ignore
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../crt0.o] ==> ignore
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.3/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-pc-cygwin/4.9.3] ==> dir [/usr/lib/gcc/i686-pc-cygwin/4.9.3]
+    arg [-L/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../../i686-pc-cygwin/lib] ==> dir [/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../../i686-pc-cygwin/lib]
+    arg [-L/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../..] ==> dir [/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../..]
+    arg [CMakeFiles/cmTryCompileExec1434204194.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTryCompileExec1434204194.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lcygwin] ==> lib [cygwin]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../default-manifest.o] ==> ignore
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.3/crtend.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/i686-pc-cygwin/4.9.3] ==> [/usr/lib/gcc/i686-pc-cygwin/4.9.3]
+  collapse library dir [/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../../../i686-pc-cygwin/lib] ==> [/usr/i686-pc-cygwin/lib]
+  collapse library dir [/usr/lib/gcc/i686-pc-cygwin/4.9.3/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;cygwin;advapi32;shell32;user32;kernel32]
+  implicit dirs: [/usr/lib/gcc/i686-pc-cygwin/4.9.3;/usr/i686-pc-cygwin/lib;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec1725521739/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1725521739.dir/build.make CMakeFiles/cmTryCompileExec1725521739.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1725521739.dir/feature_tests.cxx.o
+/usr/bin/c++.exe    -std=c++1y -o CMakeFiles/cmTryCompileExec1725521739.dir/feature_tests.cxx.o -c /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec1725521739.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec1725521739.dir/link.txt --verbose=1
+/usr/bin/c++.exe     -Wl,--enable-auto-import CMakeFiles/cmTryCompileExec1725521739.dir/feature_tests.cxx.o  -o cmTryCompileExec1725521739.exe -Wl,--out-implib,libcmTryCompileExec1725521739.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec1325133510/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1325133510.dir/build.make CMakeFiles/cmTryCompileExec1325133510.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1325133510.dir/feature_tests.cxx.o
+/usr/bin/c++.exe    -std=c++11 -o CMakeFiles/cmTryCompileExec1325133510.dir/feature_tests.cxx.o -c /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec1325133510.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec1325133510.dir/link.txt --verbose=1
+/usr/bin/c++.exe     -Wl,--enable-auto-import CMakeFiles/cmTryCompileExec1325133510.dir/feature_tests.cxx.o  -o cmTryCompileExec1325133510.exe -Wl,--out-implib,libcmTryCompileExec1325133510.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec3848712921/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3848712921.dir/build.make CMakeFiles/cmTryCompileExec3848712921.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3848712921.dir/feature_tests.cxx.o
+/usr/bin/c++.exe    -std=c++98 -o CMakeFiles/cmTryCompileExec3848712921.dir/feature_tests.cxx.o -c /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec3848712921.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec3848712921.dir/link.txt --verbose=1
+/usr/bin/c++.exe     -Wl,--enable-auto-import CMakeFiles/cmTryCompileExec3848712921.dir/feature_tests.cxx.o  -o cmTryCompileExec3848712921.exe -Wl,--out-implib,libcmTryCompileExec3848712921.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec1261819221/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1261819221.dir/build.make CMakeFiles/cmTryCompileExec1261819221.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1261819221.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1261819221.dir/CheckIncludeFile.c.o   -c /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1261819221.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec1261819221.dir/link.txt --verbose=1
+/usr/bin/cc     -Wl,--enable-auto-import CMakeFiles/cmTryCompileExec1261819221.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1261819221.exe -Wl,--out-implib,libcmTryCompileExec1261819221.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec3849069511/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3849069511.dir/build.make CMakeFiles/cmTryCompileExec3849069511.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3849069511.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3849069511.dir/CheckIncludeFile.c.o   -c /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3849069511.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec3849069511.dir/link.txt --verbose=1
+/usr/bin/cc     -Wl,--enable-auto-import CMakeFiles/cmTryCompileExec3849069511.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3849069511.exe -Wl,--out-implib,libcmTryCompileExec3849069511.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec2906535042/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2906535042.dir/build.make CMakeFiles/cmTryCompileExec2906535042.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2906535042.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2906535042.dir/CheckIncludeFile.c.o   -c /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2906535042.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec2906535042.dir/link.txt --verbose=1
+/usr/bin/cc     -Wl,--enable-auto-import CMakeFiles/cmTryCompileExec2906535042.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2906535042.exe -Wl,--out-implib,libcmTryCompileExec2906535042.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+
+
+Determining size of void* passed with the following output:
+Change Dir: /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec1179006879/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1179006879.dir/build.make CMakeFiles/cmTryCompileExec1179006879.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1179006879.dir/SIZEOF_VOID_PTR.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1179006879.dir/SIZEOF_VOID_PTR.c.o   -c /home/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CheckTypeSize/SIZEOF_VOID_PTR.c
+Linking C executable cmTryCompileExec1179006879.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec1179006879.dir/link.txt --verbose=1
+/usr/bin/cc     -Wl,--enable-auto-import CMakeFiles/cmTryCompileExec1179006879.dir/SIZEOF_VOID_PTR.c.o  -o cmTryCompileExec1179006879.exe -Wl,--out-implib,libcmTryCompileExec1179006879.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/cygdrive/c/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp'
+
+
+The system is: Windows - 6.2 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/24/2015 11:59:55 PM.
+Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\3.3.0\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\3.3.0\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\3.3.0\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:07.86
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/3.3.0/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/25/2015 12:00:03 AM.
+Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\3.3.0\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\3.3.0\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\3.3.0\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.95
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/3.3.0/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_6bd39.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/25/2015 12:00:07 AM.
+Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\cmTC_6bd39.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6bd39.dir\Debug\".
+  Creating directory "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_6bd39.dir\Debug\cmTC_6bd39.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_6bd39.dir\Debug\cmTC_6bd39.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_6bd39.dir\Debug\\" /Fd"cmTC_6bd39.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_6bd39.dir\Debug\\" /Fd"cmTC_6bd39.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\cmTC_6bd39.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/Debug/cmTC_6bd39.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/Debug/cmTC_6bd39.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_6bd39.dir\Debug\testCCompiler.obj
+  cmTC_6bd39.vcxproj -> C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\cmTC_6bd39.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_6bd39.dir\Debug\cmTC_6bd39.tlog\unsuccessfulbuild".
+  Touching "cmTC_6bd39.dir\Debug\cmTC_6bd39.tlog\cmTC_6bd39.lastbuildstate".
+Done Building Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\cmTC_6bd39.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.93
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_601d2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/25/2015 12:00:12 AM.
+Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\cmTC_601d2.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_601d2.dir\Debug\".
+  Creating directory "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_601d2.dir\Debug\cmTC_601d2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_601d2.dir\Debug\cmTC_601d2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_601d2.dir\Debug\\" /Fd"cmTC_601d2.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_601d2.dir\Debug\\" /Fd"cmTC_601d2.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\cmTC_601d2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/Debug/cmTC_601d2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/Debug/cmTC_601d2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_601d2.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_601d2.vcxproj -> C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\cmTC_601d2.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_601d2.dir\Debug\cmTC_601d2.tlog\unsuccessfulbuild".
+  Touching "cmTC_601d2.dir\Debug\cmTC_601d2.tlog\cmTC_601d2.lastbuildstate".
+Done Building Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\cmTC_601d2.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.84
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_3aaa6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/25/2015 12:00:15 AM.
+Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\cmTC_3aaa6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3aaa6.dir\Debug\".
+  Creating directory "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3aaa6.dir\Debug\cmTC_3aaa6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3aaa6.dir\Debug\cmTC_3aaa6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_3aaa6.dir\Debug\\" /Fd"cmTC_3aaa6.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_3aaa6.dir\Debug\\" /Fd"cmTC_3aaa6.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\cmTC_3aaa6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/Debug/cmTC_3aaa6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/Debug/cmTC_3aaa6.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_3aaa6.dir\Debug\testCXXCompiler.obj
+  cmTC_3aaa6.vcxproj -> C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\cmTC_3aaa6.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_3aaa6.dir\Debug\cmTC_3aaa6.tlog\unsuccessfulbuild".
+  Touching "cmTC_3aaa6.dir\Debug\cmTC_3aaa6.tlog\cmTC_3aaa6.lastbuildstate".
+Done Building Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\cmTC_3aaa6.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.58
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_16c4b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/25/2015 12:00:18 AM.
+Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\cmTC_16c4b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_16c4b.dir\Debug\".
+  Creating directory "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_16c4b.dir\Debug\cmTC_16c4b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_16c4b.dir\Debug\cmTC_16c4b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_16c4b.dir\Debug\\" /Fd"cmTC_16c4b.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_16c4b.dir\Debug\\" /Fd"cmTC_16c4b.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\cmTC_16c4b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/Debug/cmTC_16c4b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/Debug/cmTC_16c4b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_16c4b.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_16c4b.vcxproj -> C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\cmTC_16c4b.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_16c4b.dir\Debug\cmTC_16c4b.tlog\unsuccessfulbuild".
+  Touching "cmTC_16c4b.dir\Debug\cmTC_16c4b.tlog\cmTC_16c4b.lastbuildstate".
+Done Building Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\cmTC_16c4b.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.62
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_6e12d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/25/2015 12:00:21 AM.
+Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\cmTC_6e12d.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6e12d.dir\Debug\".
+  Creating directory "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_6e12d.dir\Debug\cmTC_6e12d.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_6e12d.dir\Debug\cmTC_6e12d.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_6e12d.dir\Debug\\" /Fd"cmTC_6e12d.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_6e12d.dir\Debug\\" /Fd"cmTC_6e12d.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\cmTC_6e12d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/Debug/cmTC_6e12d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/Debug/cmTC_6e12d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_6e12d.dir\Debug\feature_tests.obj
+  cmTC_6e12d.vcxproj -> C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\cmTC_6e12d.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_6e12d.dir\Debug\cmTC_6e12d.tlog\unsuccessfulbuild".
+  Touching "cmTC_6e12d.dir\Debug\cmTC_6e12d.tlog\cmTC_6e12d.lastbuildstate".
+Done Building Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\cmTC_6e12d.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.59
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_2cc82.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/25/2015 12:00:25 AM.
+Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\cmTC_2cc82.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2cc82.dir\Debug\".
+  Creating directory "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2cc82.dir\Debug\cmTC_2cc82.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_2cc82.dir\Debug\cmTC_2cc82.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2cc82.dir\Debug\\" /Fd"cmTC_2cc82.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2cc82.dir\Debug\\" /Fd"cmTC_2cc82.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\cmTC_2cc82.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/Debug/cmTC_2cc82.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/Debug/cmTC_2cc82.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_2cc82.dir\Debug\CheckIncludeFile.obj
+  cmTC_2cc82.vcxproj -> C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\cmTC_2cc82.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_2cc82.dir\Debug\cmTC_2cc82.tlog\unsuccessfulbuild".
+  Touching "cmTC_2cc82.dir\Debug\cmTC_2cc82.tlog\cmTC_2cc82.lastbuildstate".
+Done Building Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\cmTC_2cc82.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.63
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_2595a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/25/2015 12:00:28 AM.
+Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\cmTC_2595a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2595a.dir\Debug\".
+  Creating directory "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2595a.dir\Debug\cmTC_2595a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_2595a.dir\Debug\cmTC_2595a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2595a.dir\Debug\\" /Fd"cmTC_2595a.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2595a.dir\Debug\\" /Fd"cmTC_2595a.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\cmTC_2595a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/Debug/cmTC_2595a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/Debug/cmTC_2595a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_2595a.dir\Debug\CheckIncludeFile.obj
+  cmTC_2595a.vcxproj -> C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\cmTC_2595a.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_2595a.dir\Debug\cmTC_2595a.tlog\unsuccessfulbuild".
+  Touching "cmTC_2595a.dir\Debug\cmTC_2595a.tlog\cmTC_2595a.lastbuildstate".
+Done Building Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\cmTC_2595a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.71
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_414e2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/25/2015 12:00:31 AM.
+Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\cmTC_414e2.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_414e2.dir\Debug\".
+  Creating directory "cmTC_414e2.dir\Debug\cmTC_414e2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_414e2.dir\Debug\cmTC_414e2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_414e2.dir\Debug\\" /Fd"cmTC_414e2.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_414e2.dir\Debug\\" /Fd"cmTC_414e2.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\cmTC_414e2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/Debug/cmTC_414e2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/Debug/cmTC_414e2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_414e2.dir\Debug\CheckIncludeFile.obj
+  cmTC_414e2.vcxproj -> C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\cmTC_414e2.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_414e2.dir\Debug\cmTC_414e2.tlog\unsuccessfulbuild".
+  Touching "cmTC_414e2.dir\Debug\cmTC_414e2.tlog\cmTC_414e2.lastbuildstate".
+Done Building Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\cmTC_414e2.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.58
+
+
+Determining size of void* passed with the following output:
+Change Dir: C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_4a364.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/25/2015 12:00:34 AM.
+Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\cmTC_4a364.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4a364.dir\Debug\".
+  Creating directory "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4a364.dir\Debug\cmTC_4a364.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4a364.dir\Debug\cmTC_4a364.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_4a364.dir\Debug\\" /Fd"cmTC_4a364.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CheckTypeSize\SIZEOF_VOID_PTR.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_4a364.dir\Debug\\" /Fd"cmTC_4a364.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CheckTypeSize\SIZEOF_VOID_PTR.c"
+  
+  SIZEOF_VOID_PTR.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\cmTC_4a364.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/Debug/cmTC_4a364.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/CMakeTmp/Debug/cmTC_4a364.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_4a364.dir\Debug\SIZEOF_VOID_PTR.obj
+  cmTC_4a364.vcxproj -> C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\Debug\cmTC_4a364.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_4a364.dir\Debug\cmTC_4a364.tlog\unsuccessfulbuild".
+  Touching "cmTC_4a364.dir\Debug\cmTC_4a364.tlog\cmTC_4a364.lastbuildstate".
+Done Building Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\CMakeFiles\CMakeTmp\cmTC_4a364.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.59
+
+

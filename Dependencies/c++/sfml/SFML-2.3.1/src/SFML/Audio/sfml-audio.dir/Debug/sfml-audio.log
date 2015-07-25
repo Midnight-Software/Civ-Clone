@@ -1,0 +1,65 @@
+﻿Build started 7/25/2015 12:04:57 AM.
+     1>Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\sfml-audio.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/src/SFML/Audio/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\include" /I"C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src" /I"C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\extlibs\headers\AL" /I"C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\extlibs\headers" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_DEPRECATE /D OV_EXCLUDE_STATIC_CALLBACKS /D FLAC__NO_DLL /D "CMAKE_INTDIR=\"Debug\"" /D SFML_AUDIO_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"sfml-audio.dir\Debug\\" /Fd"sfml-audio.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\ALCheck.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\AlResource.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\AudioDevice.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\Listener.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\Music.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\Sound.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\SoundBuffer.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\SoundBufferRecorder.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\InputSoundFile.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\OutputSoundFile.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\SoundRecorder.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\SoundSource.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\SoundStream.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\SoundFileFactory.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\SoundFileReaderFlac.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\SoundFileReaderOgg.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\SoundFileReaderWav.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\SoundFileWriterFlac.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\SoundFileWriterOgg.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\SoundFileWriterWav.cpp"
+         ALCheck.cpp
+         AlResource.cpp
+         AudioDevice.cpp
+         Listener.cpp
+         Music.cpp
+         Sound.cpp
+         SoundBuffer.cpp
+         SoundBufferRecorder.cpp
+         InputSoundFile.cpp
+         OutputSoundFile.cpp
+         SoundRecorder.cpp
+         SoundSource.cpp
+         SoundStream.cpp
+         SoundFileFactory.cpp
+         SoundFileReaderFlac.cpp
+     1>C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\SoundFileReaderFlac.cpp(281): warning C4244: 'argument' : conversion from 'sf::Uint64' to '__w64 int', possible loss of data
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2132): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : see declaration of 'std::_Copy_impl'
+                 C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\SoundFileReaderFlac.cpp(280) : see reference to function template instantiation '_OutIt std::copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<short>>>,sf::Int16*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=sf::Int16 *
+         ,            _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<short>>>
+                 ]
+         SoundFileReaderOgg.cpp
+         SoundFileReaderWav.cpp
+         SoundFileWriterFlac.cpp
+         SoundFileWriterOgg.cpp
+         SoundFileWriterWav.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\lib\Debug\sfml-audio-d-2.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "..\..\..\lib\Debug\sfml-system-d.lib" "..\..\..\extlibs\libs-msvc\x86\openal32.lib" "..\..\..\extlibs\libs-msvc\x86\vorbisenc.lib" "..\..\..\extlibs\libs-msvc\x86\vorbisfile.lib" "..\..\..\extlibs\libs-msvc\x86\vorbis.lib" "..\..\..\extlibs\libs-msvc\x86\ogg.lib" "..\..\..\extlibs\libs-msvc\x86\flac.lib" winmm.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/lib/Debug/sfml-audio-d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/lib/Debug/sfml-audio-d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug /DLL "sfml-audio.dir\Debug\ALCheck.obj"
+         "sfml-audio.dir\Debug\AlResource.obj"
+         "sfml-audio.dir\Debug\AudioDevice.obj"
+         "sfml-audio.dir\Debug\Listener.obj"
+         "sfml-audio.dir\Debug\Music.obj"
+         "sfml-audio.dir\Debug\Sound.obj"
+         "sfml-audio.dir\Debug\SoundBuffer.obj"
+         "sfml-audio.dir\Debug\SoundBufferRecorder.obj"
+         "sfml-audio.dir\Debug\InputSoundFile.obj"
+         "sfml-audio.dir\Debug\OutputSoundFile.obj"
+         "sfml-audio.dir\Debug\SoundRecorder.obj"
+         "sfml-audio.dir\Debug\SoundSource.obj"
+         "sfml-audio.dir\Debug\SoundStream.obj"
+         "sfml-audio.dir\Debug\SoundFileFactory.obj"
+         "sfml-audio.dir\Debug\SoundFileReaderFlac.obj"
+         "sfml-audio.dir\Debug\SoundFileReaderOgg.obj"
+         "sfml-audio.dir\Debug\SoundFileReaderWav.obj"
+         "sfml-audio.dir\Debug\SoundFileWriterFlac.obj"
+         "sfml-audio.dir\Debug\SoundFileWriterOgg.obj"
+         "sfml-audio.dir\Debug\SoundFileWriterWav.obj"
+            Creating library C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/lib/Debug/sfml-audio-d.lib and object C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/lib/Debug/sfml-audio-d.exp
+         sfml-audio.vcxproj -> C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\lib\Debug\sfml-audio-d-2.dll
+     1>Done Building Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Audio\sfml-audio.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:42.20

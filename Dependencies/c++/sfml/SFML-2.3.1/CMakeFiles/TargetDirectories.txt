@@ -1,0 +1,8 @@
+C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/src/SFML/Main/CMakeFiles/sfml-main.dir
+C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/src/SFML/Audio/CMakeFiles/sfml-audio.dir
+C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
+C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/ALL_BUILD.dir
+C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/src/SFML/Window/CMakeFiles/sfml-window.dir
+C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/src/SFML/System/CMakeFiles/sfml-system.dir
+C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/CMakeFiles/ZERO_CHECK.dir
+C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/src/SFML/Network/CMakeFiles/sfml-network.dir

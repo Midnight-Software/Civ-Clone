@@ -1,0 +1,56 @@
+﻿Build started 7/25/2015 12:04:57 AM.
+     1>Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\sfml-window.vcxproj" on node 3 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/src/SFML/Window/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\include" /I"C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_DEPRECATE /D UNICODE /D _UNICODE /D "CMAKE_INTDIR=\"Debug\"" /D SFML_WINDOW_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"sfml-window.dir\Debug\\" /Fd"sfml-window.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\Context.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\GlContext.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\GlResource.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\Joystick.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\JoystickManager.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\Keyboard.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\Mouse.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\Touch.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\Sensor.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\SensorManager.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\VideoMode.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\Window.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\WindowImpl.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\Win32\WglContext.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\Win32\WglExtensions.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\Win32\InputImpl.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\Win32\JoystickImpl.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\Win32\SensorImpl.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\Win32\VideoModeImpl.cpp" "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\Win32\WindowImplWin32.cpp"
+         Context.cpp
+         GlContext.cpp
+         GlResource.cpp
+         Joystick.cpp
+         JoystickManager.cpp
+         Keyboard.cpp
+         Mouse.cpp
+         Touch.cpp
+         Sensor.cpp
+         SensorManager.cpp
+         VideoMode.cpp
+         Window.cpp
+         WindowImpl.cpp
+         WglContext.cpp
+         WglExtensions.cpp
+         InputImpl.cpp
+         JoystickImpl.cpp
+         SensorImpl.cpp
+         VideoModeImpl.cpp
+         WindowImplWin32.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\lib\Debug\sfml-window-d-2.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "..\..\..\lib\Debug\sfml-system-d.lib" winmm.lib gdi32.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/lib/Debug/sfml-window-d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/lib/Debug/sfml-window-d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug /DLL "sfml-window.dir\Debug\Context.obj"
+         "sfml-window.dir\Debug\GlContext.obj"
+         "sfml-window.dir\Debug\GlResource.obj"
+         "sfml-window.dir\Debug\Joystick.obj"
+         "sfml-window.dir\Debug\JoystickManager.obj"
+         "sfml-window.dir\Debug\Keyboard.obj"
+         "sfml-window.dir\Debug\Mouse.obj"
+         "sfml-window.dir\Debug\Touch.obj"
+         "sfml-window.dir\Debug\Sensor.obj"
+         "sfml-window.dir\Debug\SensorManager.obj"
+         "sfml-window.dir\Debug\VideoMode.obj"
+         "sfml-window.dir\Debug\Window.obj"
+         "sfml-window.dir\Debug\WindowImpl.obj"
+         "sfml-window.dir\Debug\WglContext.obj"
+         "sfml-window.dir\Debug\WglExtensions.obj"
+         "sfml-window.dir\Debug\InputImpl.obj"
+         "sfml-window.dir\Debug\JoystickImpl.obj"
+         "sfml-window.dir\Debug\SensorImpl.obj"
+         "sfml-window.dir\Debug\VideoModeImpl.obj"
+         "sfml-window.dir\Debug\WindowImplWin32.obj"
+            Creating library C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/lib/Debug/sfml-window-d.lib and object C:/Users/tbalz_000/git/Civ-Clone/Dependencies/c/sfml/SFML-2.3.1/lib/Debug/sfml-window-d.exp
+         sfml-window.vcxproj -> C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\lib\Debug\sfml-window-d-2.dll
+     1>Done Building Project "C:\Users\tbalz_000\git\Civ-Clone\Dependencies\c\sfml\SFML-2.3.1\src\SFML\Window\sfml-window.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:45.41
