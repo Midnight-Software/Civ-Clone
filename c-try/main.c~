@@ -1,0 +1,10 @@
+//       AUTHOR : THOMAS BALZER
+//CREATION DATE : 12:17 AM JULY 25 SATURDAY 2015
+
+#include <stdio.h>
+
+int main(int argc, char *argv[])
+{
+  printf("Hallo there.");
+  return 0;
+}

@@ -1,0 +1,9 @@
+#this is the default makefile for the c engine thing!
+CC=clang
+# TODO > Detect CYGWIN compile vs yadda compile.
+INCLUDE_DIRS="C:/Program Files (x86)\Microsoft Visual Studio 12.0\VC\include"
+
+INCLUDE_FLAG=-I$(INCLUDE_DIRS)
+
+main:
+	$(CC) $(INCLUDE_FLAG) main.c
